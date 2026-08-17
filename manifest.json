@@ -4,8 +4,8 @@
   "description": "Caisse et inventaire pour petits commerces togolais",
   "start_url": "./index.html",
   "scope": "./",
-  "display": "standalone",
-  "orientation": "portrait",
+  "display": "fullscreen",
+  "display_override": ["fullscreen", "standalone", "minimal-ui"],
   "background_color": "#141b30",
   "theme_color": "#141b30",
   "icons": [
